@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtRotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="#007F00"
+        android:text="Oktoberfest" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eventoClique1"
+        android:text="Clique aqui"
+    />
+
+    <Button
+        android:id="@+id/btnEventoClique2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Não Clique aqui"
+        />
+
+    <Button
+        android:id="@+id/btnEventoClique3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clique aqui às vezes"
+        />
+
+    <Button
+        android:id="@+id/btnEventoClique4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talvez Clique aqui"
+        />
+</LinearLayout>
